@@ -2,7 +2,7 @@
 # Includes APOC plugins
 
 FROM neo4j:3.4
-MAINTAINER Digital Cloud <dev@dce.sa>
+MAINTAINER Digital Cloud <info@dce.sa>
 
 ENV APOC_URI https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/3.4.0.1/apoc-3.4.0.1-all.jar
 
