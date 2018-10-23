@@ -10,7 +10,7 @@ RUN mv plugins /plugins && ln -s /plugins
 
 RUN wget $APOC_URI && mv apoc-3.4.0.1-all.jar plugins/apoc-3.4.0.1-all.jar
 
-copy neo4j.conf /etc/neo4j/neo4j.conf
+copy neo4j.conf /conf/neo4j.conf
     
 EXPOSE 7474 7473 7687
 
